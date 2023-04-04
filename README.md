@@ -21,10 +21,24 @@ Copy code
 python Formation control Swarm.py
 This will run the simulation and display the trajectories of the four robots in a formation. You can also uncomment the code at the end to display the position of each robot over time.
 
+
 Explanation
 The code implements the control law for four robots in a particular formation. The robots are modeled as points in a two-dimensional space, and their movements are governed by a control law that keeps them in a desired formation. The control law is based on the Laplacian matrix of the robot network, which determines the interaction between the robots.
 
 The code uses the incidence matrix, degree matrix, and adjacency matrix to compute the Laplacian matrix. It then uses this matrix to calculate the control input for each robot, which is based on the difference between the robot's current position and the desired position in the formation.
+
+Assuming each agent has state space dynamics ui with ui in R^2 and u = [u1,u2,u3,u4], the second order linear control law can be implemented using the equation:
+
+u = -k * L * x + k * E * z_ref
+
+where:
+
+k is a positive gain
+L is the Laplacian matrix
+E is the incidence matrix 
+z_ref is the reference input vector
+
+This control law is designed to control the system dynamics and stabilize the system around a desired reference input z_ref. By tuning the controller gain matrix k and the state feedback matrix L, the stability and performance of the system can be improved.
 
 The code uses the numpy package for numerical computations, matplotlib for plotting the trajectories, and networkx for computing the Laplacian matrix.
 
