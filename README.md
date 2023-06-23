@@ -49,6 +49,7 @@ The code uses the numpy package for numerical computations, matplotlib for plott
 
 
 https://github.com/Amenephous/Formation-_control-law/assets/48127920/9d7e5012-b8fc-4ccf-bb79-e873081235e1
+
 Simulation of Formation Control for 4 bots randomly placed in space.
 
 
