@@ -42,5 +42,5 @@ This control law is designed to control the system dynamics and stabilize the sy
 
 The code uses the numpy package for numerical computations, matplotlib for plotting the trajectories, and networkx for computing the Laplacian matrix.
 
-License
-This code is licensed under the MIT License. Feel free to use and modify it for your own purposes.
+
+![Form_control](https://github.com/Amenephous/Formation-_control-law/assets/48127920/e4093694-6e0c-48e5-a5d8-5a12378735ad)
