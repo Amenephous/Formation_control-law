@@ -2,6 +2,11 @@
 
 This is a Python implementation of the control law on four robots to a particular formation using swarm robotics techniques. The robots move in a coordinated manner to achieve a desired formation, and the code simulates their movements over time.
 
+![Formation](https://github.com/Amenephous/Formation-_control-law/assets/48127920/38dd7efe-988b-4e4d-aa7b-92f219cbb3ae)
+
+Desired Formation with distance between the bots.
+
+
 Requirements
 To run this code, you need the following Python packages:
 
@@ -43,4 +48,7 @@ This control law is designed to control the system dynamics and stabilize the sy
 The code uses the numpy package for numerical computations, matplotlib for plotting the trajectories, and networkx for computing the Laplacian matrix.
 
 
-![Form_control](https://github.com/Amenephous/Formation-_control-law/assets/48127920/e4093694-6e0c-48e5-a5d8-5a12378735ad)
+https://github.com/Amenephous/Formation-_control-law/assets/48127920/9d7e5012-b8fc-4ccf-bb79-e873081235e1
+Simulation of Formation Control for 4 bots randomly placed in space.
+
+
