@@ -1,4 +1,4 @@
-# Formation-_control-law
+# Formation_control-law
 
 This is a Python implementation of the control law on four robots to a particular formation using swarm robotics techniques. The robots move in a coordinated manner to achieve a desired formation, and the code simulates their movements over time.
 
